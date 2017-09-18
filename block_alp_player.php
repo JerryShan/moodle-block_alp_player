@@ -44,7 +44,7 @@ class block_alp_player extends block_base {
             $this->content = new stdClass;
             $this->content->text = '<div class="block_alp_player"><a target="_blank" href="'.
                                    $CFG->wwwroot .'/blocks/alp_player/launch.php?id='.$COURSE->id.
-                                   '"><img src="'. $CFG->wwwroot .'/blocks/alp_player/pix/echo360_logo_noTag.blue.png"'.
+                                   '"><img src="'. $CFG->wwwroot .'/blocks/alp_player/pix/echo360_logo_240-transp.png"'.
                                    ' border="0" alt="Echo360"/><br/>'.get_string('launchtext', 'block_alp_player').'</a></div>';
             return $this->content;
         }
